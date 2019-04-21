@@ -1,6 +1,13 @@
 # Usage
 
 * Download kafka into working directory first.
+  - Go to https://kafka.apache.org/downloads,
+  - Download the latest one.
+  - Extract it to the working dir.
+  - Rename it as `kafka`.
+
+* Change the parameters in config.sh if needed (i.e. java path).
+
 * Run Zookeeper
 ```
 . ./run_zookeper.sh
