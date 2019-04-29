@@ -10,4 +10,5 @@ fi
 kafka/bin/kafka-console-consumer.sh \
         --bootstrap-server $kafka_host:$kafka_port \
         --topic $1 \
-        --from-beginning
+        --from-beginning \
+        --consumer.config=kafka/config/consumer.properties

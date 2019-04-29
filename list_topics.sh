@@ -4,4 +4,4 @@
 
 # List existing topics
 kafka/bin/kafka-topics.sh --list \
-    --zookeeper $zk_host:$zk_port
+    --zookeeper $zk_host:$zk_port 

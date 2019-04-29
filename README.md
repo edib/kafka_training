@@ -39,5 +39,7 @@
 ```
 
 ```
-This scripts were inspired from http://cloudurable.com/blog/kafka-tutorial-kafka-from-command-line/index.html.
+Sources:
+http://cloudurable.com/blog/kafka-tutorial-kafka-from-command-line/index.html
+http://kafka.apache.org/documentation.html#uses_messaging
 ```

@@ -1,4 +1,4 @@
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+#export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 
 zk_host='localhost'
 zk_port='2181'
