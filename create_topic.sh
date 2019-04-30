@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-if [ $# -lt 2 ]
+if [ $# -lt 3 ]
   then
 
     cat <<HELP_USAGE
 #===============================================================================
 #
 #          FILE:  create_topics.sh
-#         USAGE:  ./create_topics.sh TOPIC_NAME
+#         USAGE:  ./create_topics.sh topic replication-factor partitions
 #   DESCRIPTION: This script is to ...
 #       OPTIONS:
 #  REQUIREMENTS:

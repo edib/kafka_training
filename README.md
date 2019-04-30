@@ -39,6 +39,17 @@
 ```
 
 ```
+# run before run_zookeper.sh
+export KAFKA_OPTS="-Djava.security.auth.login.config=`pwd`/kafka/config/zookeeper_jaas.conf"
+
+# run before run_kafka.sh
+export KAFKA_OPTS="-Djava.security.auth.login.config=`pwd`/kafka/config/kafka_server_jaas.conf"
+
+# run before any client
+export KAFKA_OPTS="-Djava.security.auth.login.config=`pwd`/kafka/config/kafka_client_jaas.conf"
+```
+
+```
 Sources:
 http://cloudurable.com/blog/kafka-tutorial-kafka-from-command-line/index.html
 http://kafka.apache.org/documentation.html#uses_messaging
